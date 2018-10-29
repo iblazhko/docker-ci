@@ -1,0 +1,6 @@
+projectsToDockerize:
+  - project: Client
+    name: docker-ci-client
+  - project: WebApi
+    name: docker-ci-api
+    port: 5000

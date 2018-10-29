@@ -1,0 +1,18 @@
+{
+    "inputs": [
+    {
+      "type": "Trace",
+      "traceLevel": "Information"
+    }
+  ],
+  "outputs": [
+    {
+        "type": "StdOutput"
+    },
+    {
+      "type": "ElasticSearch",
+      "indexNamePrefix": "containersdemo-client",
+      "serviceUri": "https://containersdemo-elasticsearch:9200"
+    }],
+  "schemaVersion": "2016-08-11"
+}
